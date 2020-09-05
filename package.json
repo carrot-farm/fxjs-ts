@@ -1,0 +1,24 @@
+{
+  "name": "fxjs-types",
+  "version": "0.16.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "Suhyun Kim <chohoki@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.6.4",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
+  },
+  "types": "./dist/index.d.ts"
+}

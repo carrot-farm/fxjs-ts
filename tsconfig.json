@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/", // 컴파일된 파일들의 디렉토리
+    "strict": true, // 엄격 모드
+    "declaration": true, // tsc 명령 실행시 *.d.ts 파일 생성
+    "lib": ["ES2020"], // 라이브러리
+    "moduleResolution": "Node", // 모듈 해석 방식
+    "typeRoots": ["./types"] 
+  },
+  "exclude": ["node_modules"]
+}
